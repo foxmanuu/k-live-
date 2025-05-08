@@ -1,0 +1,11 @@
+:root{
+    --first-branco: #FFFFFF;
+    --button-roxinho: #711fe4;
+    --background-corzinha: #000000;
+
+}
+
+body{
+    background-color: var(--background-corzinha);
+    color: var(--first-branco)
+}
