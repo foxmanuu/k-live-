@@ -9,3 +9,20 @@ body{
     background-color: var(--background-corzinha);
     color: var(--first-branco)
 }
+.principal{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: ;
+}
+.container__botao{
+    background-color: var(--button-roxinho);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--first-branco);
+    display: block;
+}
