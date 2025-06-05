@@ -13,11 +13,11 @@ body{
     background-image: url("image.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: right;
 }
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: ;
 }
 .container__botao{
     background-color: var(--button-roxinho);
@@ -25,4 +25,20 @@ body{
     padding: 1em;
     color: var(--first-branco);
     display: block;
+    height: 25px;
+    width: 275px;
+}
+.container_botao2{
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 1em;
+    color: #444141;
+    display: block;
+    height: 25px;
+    width: 275px;
+}
+ 
+.container_titulo{
+    font-size: 30px;
+
 }
