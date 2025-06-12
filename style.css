@@ -18,27 +18,28 @@ body{
 .container{
     height: 100vh;
     display: grid;
+    grid-template-columns:50% 50%;
 }
-.container__botao{
+.container__botao1{
     background-color: var(--button-roxinho);
     border-radius: 5px;
     padding: 1em;
     color: var(--first-branco);
     display: block;
     height: 25px;
-    width: 275px;
+    width: 375px;
+    text-align: center;
+    margin-bottom: 1em;
 }
-.container_botao2{
-    background-color: #000000;
-    border-radius: 5px;
-    padding: 1em;
-    color: #444141;
-    display: block;
-    height: 25px;
-    width: 275px;
+.container__botao2{
+    background-color: transparent;
+    border: 1.5px solid var(--first-branco);
+}
+
+.descricao{
+    padding-top: 250px;
+    padding-right: 150px;
 }
  
-.container_titulo{
-    font-size: 30px;
 
-}
+
