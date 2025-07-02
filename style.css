@@ -16,7 +16,7 @@ body{
     background-position: right;
 }
 .container{
-    height: 100vh;
+    height: 100wh;
     display: grid;
     grid-template-columns:50% 50%;
 }
